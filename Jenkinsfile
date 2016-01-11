@@ -1,3 +1,4 @@
+def causes = currentBuild.rawBuild.getCauses()
 node {
-  echo ${program}
+  echo causes;
 }
