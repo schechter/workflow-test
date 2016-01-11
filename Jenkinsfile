@@ -1,3 +1,3 @@
 node {
-  echo env.program;
+  echo env;
 }
