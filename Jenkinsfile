@@ -5,5 +5,5 @@ node {
   echo 'here';
 }
 node {
-  sh 'sh builds.sh' Program
+  sh 'sh builds.sh $Program'
 }
