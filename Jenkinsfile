@@ -1,1 +1,3 @@
+node {
 sh 'echo ${program}'
+}
