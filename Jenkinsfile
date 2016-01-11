@@ -1,3 +1,3 @@
 node {
-sh 'echo ${program}'
+  echo ${program}
 }
