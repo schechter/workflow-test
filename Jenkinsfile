@@ -1,3 +1,4 @@
+def buildName = build.environment.get("BUILD_DISPLAY_NAME")
 node {
-  sh 'echo ${program}';
+  echo buildName;
 }
