@@ -1,4 +1,4 @@
-def program = build.environment.get("program")
+def program = hudson.model.build.environment.get("program")
 
 
 node {
