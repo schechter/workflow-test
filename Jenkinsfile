@@ -1,4 +1,3 @@
-def program = sh 'echo $program';
 node {
-  echo program
+  sh 'echo $program';
 }
