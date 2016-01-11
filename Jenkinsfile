@@ -1,5 +1,7 @@
+params = build.getActions(hudson.model.ParametersAction)
+program = build.getActions(hudson.model.ParametersAction(ParameterValue('program')
 node {
     echo 'hello world';
-    echo project.builds;
-    echo project.builds.program
+    echo program;
+    echo params;
 }
