@@ -1,3 +1,3 @@
 node {
-    echo 'hello world';
+    sh 'sh builds.sh'
 }
