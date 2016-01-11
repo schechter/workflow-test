@@ -1,4 +1,4 @@
-params = build.getActions(hudson.model.ParametersAction)
+params = hudson.model.ParametersAction(ParameterValue('program'))
 
 node {
     echo 'hello world';
