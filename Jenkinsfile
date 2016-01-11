@@ -1,6 +1,7 @@
+def params = hudson.model.Hudson.ParameterValue
 
 
 node {
     echo 'hello world';
-    echo build.envVars.program;
+    echo params.program;
 }
