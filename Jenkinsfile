@@ -1,1 +1,2 @@
-sh echo $program;
+def 
+sh 'echo $program';
