@@ -1,3 +1,5 @@
+
+
 node {
   echo Program;
   echo Branch;
@@ -6,5 +8,5 @@ node {
 }
 node {
   echo Program
-  sh 'sh builds.sh $Program'
+  sh 'sh builds.sh {$Program}'
 }
