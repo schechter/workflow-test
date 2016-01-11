@@ -1,6 +1,1 @@
-
-
-
-node {
-    echo program;
-}
+sh 'echo ${program}'
