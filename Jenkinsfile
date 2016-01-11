@@ -1,7 +1,7 @@
-def program = hudson.model.Hudson.ParameterValue('program')
+def program = build.environment.get("program")
 
 
 node {
     echo 'hello world';
-    echo program();
+    echo program;
 }
