@@ -1,3 +1,1 @@
-node {
-  sh echo $program;
-}
+sh echo $program;
