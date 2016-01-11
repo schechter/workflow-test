@@ -1,4 +1,5 @@
 node {
     echo 'hello world';
-    echo build;
+    echo project.builds;
+    echo project.builds.program
 }
